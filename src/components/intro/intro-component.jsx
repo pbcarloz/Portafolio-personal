@@ -1,4 +1,5 @@
 import './intro-style.css'
+import miFoto from '../../img/miFoto.png'
 import React from 'react';
 
 const Intro = () => {
@@ -16,10 +17,15 @@ const Intro = () => {
                                 <div className='i-title-item'>Project Management</div>
                             </div>
                         </div>
-                        <div className='i-desc'></div>
+                        <p className='i-desc'>
+                            I design and develop services for customers of all sizes, specializing in creating robust modern websites, webservices and project management. 
+                        </p>
                 </div>
             </div>
-            <div className='i-right'>Right</div>
+            <div className='i-right'>
+                <div className='i-bg'></div>
+                <img src={miFoto} className='i-img' />
+            </div>
         </div>
     );
 };
