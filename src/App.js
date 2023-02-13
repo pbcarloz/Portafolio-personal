@@ -1,15 +1,13 @@
 
 import './App.css';
+import About from './components/about/about-component';
 import Intro from './components/intro/intro-component';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
           <Intro />
-        </p>
-      </header>
+          <About />
     </div>
   );
 }
