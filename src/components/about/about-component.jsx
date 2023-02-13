@@ -26,7 +26,7 @@ const About = () => {
                         <div className='a-award-texts'>
                             <h4 className='a-award-title'>Front End Web Development</h4>
                             <p className='a-award-desc'>
-                                Nemo neim ipsam voptatem quia voluptas
+                                Certificate for completion of the Front End Web Development career with CorderHouse Argentina
                             </p>
                         </div>
                     </div>
