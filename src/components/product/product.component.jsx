@@ -1,10 +1,18 @@
 
 import React from 'react';
+import './product.style.css'
 
-const Product = () => {
+const Product = ({img, link}) => {
     return (
-        <div>
-            
+        <div className='p'>
+            <div className='p-browser'>
+                <div className='p-circle'></div>
+                <div className='p-circle'></div>
+                <div className='p-circle'></div>
+            </div>
+                <a href={link} target="_blank" rel="noreferrer">
+                    <img src={img} alt='' className='p-img'/>
+                </a>
         </div>
     );
 };
