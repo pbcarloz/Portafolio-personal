@@ -1,15 +1,14 @@
 .p {
-   width: 30%; 
+   width: 30%;
    height: 40vh;
    margin: 20px 10px;
-   border: 2px solid #d1d1d1;
    border-radius: 10px 10px 0px 0px;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 
 .p-browser {
    height: 20px;
-   background-color:#d1d1d1 ;
+   background-color: orange;
    display: flex;
    align-items: center;
    position: sticky;
@@ -24,7 +23,7 @@
 }
 
 .p-img {
-   height: 100%;
+   width: 100%;
    transition: all 10s ease;
 }
 
