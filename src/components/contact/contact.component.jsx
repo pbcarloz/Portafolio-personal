@@ -59,8 +59,6 @@ const Contact = () => {
             console.log(complete)
             document.getElementById("form_fields").reset();
         }
-
-
     };
 
 

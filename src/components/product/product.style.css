@@ -1,10 +1,13 @@
 .p {
-   width: 30%;
-   height: 40vh;
-   margin: 20px 10px;
-   border-radius: 10px 10px 0px 0px;
-   /* overflow: hidden; */
+   flex: 1 1 20rem;
+   display: flex;
+   flex-direction: column;
+   margin: 10px 20px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+   align-self: normal;
+
 }
+
 
 .p-browser {
    height: 20px;
@@ -24,9 +27,26 @@
 
 .p-img {
    width: 100%;
-   transition: all 10s ease;
+   transition: all 1s ease;
 }
 
 .p:hover .p-img {
-   transform: translateX(-90%);
+   transform: scale(1.1);
+}
+
+.p-text {
+   margin-bottom: 10px;
+}
+
+.p .btn {
+   display: inline-block;
+   margin-top: auto;
+   background-color: orange;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   text-decoration: none;
+   align-self: center;
+
 }

@@ -13,7 +13,8 @@ const Product = ({ img, link, descri }) => {
             <a href={link} target="_blank" rel="noreferrer">
                 <img src={img} alt='' className='p-img' />
             </a>
-            <p>{descri}</p>
+            <p className='p-text'>{descri}</p>
+            <a href='/' className='btn'>See Live</a>
         </div>
 
     );
