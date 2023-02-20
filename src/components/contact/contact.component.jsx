@@ -1,13 +1,17 @@
 import "./contact.style.css"
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useRef } from "react";
 import Phone from '../../img/icons8-phone-50.png'
 import Email from '../../img//icons8-mail-account-48.png'
 import Address from '../../img/icons8-home-address-50.png'
 
 import emailjs from '@emailjs/browser';
+import { ThemeContext } from "../../context";
 
 const Contact = () => {
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+
     const formRef = useRef();
 
     const [complete, setComplete] = useState(false);
@@ -97,10 +101,11 @@ const Contact = () => {
                         <b>What is you challenge?</b> Always up to make things work.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit} id="form_fields">
-                        <input type="text" placeholder="Name" name="user_name" id="user_name" />
-                        <input type="text" placeholder="Subject" name="user_subject" id="user_subject" />
-                        <input type="text" placeholder="Email" name="user_email" id="user_email" />
-                        <textarea rows="5" placeholder="Message" name="message" id="user_message" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" id="user_name" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" id="user_subject" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" id="user_name" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" id="user_email" />
+                        <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message" id="user_message" />
                         <button>Submit</button>
                         {complete && " Thank you"}
                     </form>
