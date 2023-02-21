@@ -1,7 +1,7 @@
 .intro {
     display: flex;
     height: 100vh;
-    
+
 }
 
 .i-left {
@@ -9,8 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .i-right {
     flex: 1;
     position: relative;
@@ -26,7 +27,7 @@
 
 .i-intro {
     font-size: 30px;
-    font-weight:300;
+    font-weight: 300;
 }
 
 .i-name {
@@ -44,17 +45,20 @@
 }
 
 @keyframes move {
-    25%{
+    25% {
         transform: translateY(-50px);
     }
-    50%{
+
+    50% {
         transform: translateY(-100px);
     }
-    75%{
+
+    75% {
         transform: translateY(-150px);
     }
-    100%{
-        transform: translateY(-200px);
+
+    100% {
+        transform: translateY();
     }
 }
 
@@ -72,7 +76,7 @@
     height: 100%;
     object-fit: contain;
     position: absolute;
-    
+
 }
 
 .i-bg {
@@ -83,5 +87,30 @@
     position: absolute;
     top: 0;
     right: 0;
-    
+
+}
+
+@media screen and (max-width: 650px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .i-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .i-desc {
+        display: none;
+    }
+
+
+    .i-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
