@@ -18,7 +18,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className='i-desc'>
-                        With my combination of business acumen and web technical skills, I am eager to contribute my talents to innovative projects and further advance your company.
+                        I am an experienced direct buyer in the automotive industry, with a passion for web development. <br />Certificated and gained proficiency in HTML, CSS, ReactJs, and other web development technologies.
                     </p>
                 </div>
             </div>

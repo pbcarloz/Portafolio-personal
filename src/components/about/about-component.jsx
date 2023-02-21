@@ -19,15 +19,19 @@ const About = () => {
                     It is a long stablished fact that.
                 </p>
                 <p className='a-desc'>
-                    I am a professional with a background in purchasing and web development. With six years as a purchaser for Volkswagen, I honed my skills in negotiations, project management, and cost optimization.
-                    <br /> I have also studied web development for three years, which has given me a solid foundation in front-end React development, as well as web design and user experience. With my combined skills in purchasing and React JS development, I am confident in my ability to bring innovative solutions to complex business problems.
+                    I am an experienced direct buyer in the automotive industry, with a passion for web development. Completed a certificate program and gained proficiency in HTML, CSS, JavaScript, React and other web development technologies. With a strong foundation in project management and a sharp business acumen, i'm well-suited to manage complex web development projects and ensure efficient operations. <br />I am excited to contribute my skills to innovative projects and advance your company.
                 </p>
                 <div className='a-award'>
-                    <img src={Award} alt="award 1" className='a-award-img' />
+                    <a href='https://www.linkedin.com/in/pbcarlosmarcelino/?locale=en_US' >
+                        <img src={Award} alt="award 1" className='a-award-img' />
+                    </a>
+
                     <div className='a-award-texts'>
-                        <h4 className='a-award-title'>Front End Web Development</h4>
+                        <h4 className='a-award-title'>My Resume</h4>
                         <p className='a-award-desc'>
-                            Certificate as a Front End Web Development with the University CorderHouse Argentina.
+                            6 years experience as a project purchaser for Volkswagen. <br />
+                            3 years studying and developing projects on React. <br />
+                            Navite Spanish Speaker, Fluent English and Japanese.
                         </p>
                     </div>
                 </div>
