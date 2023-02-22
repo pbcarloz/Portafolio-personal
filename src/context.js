@@ -23,25 +23,3 @@ export const ThemeProvider = (props) => {
 };
 
 
-export const LangContext = createContext();
-const INITIAL_LANG_STATE = { translateText: true };
-
-const langReducer = (state, action) => {
-    switch (action.type) {
-        case "JAP":
-            return { translateText: !state.translateText };
-        default:
-            return state;
-    }
-};
-
-export const LangProvider = (props) => {
-    const [state, dispatch] = useReducer(langReducer, INITIAL_LANG_STATE);
-    return (
-        <LangContext.Provider value={{ state, dispatch }}>
-            {props.children}
-        </LangContext.Provider>
-    )
-};
-
-
