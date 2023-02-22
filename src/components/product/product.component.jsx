@@ -2,7 +2,7 @@
 import React from 'react';
 import './product.style.css'
 
-const Product = ({ img, link, descri }) => {
+const Product = ({ img, link, descri, github }) => {
     return (
         <div className='p'>
             <div className='p-browser'>
@@ -14,7 +14,7 @@ const Product = ({ img, link, descri }) => {
                 <img src={img} alt='' className='p-img' />
             </a>
             <p className='p-text'>{descri}</p>
-            <a href='/' className='btn'>See Live</a>
+            <a href={github} className='btn' target="_blank" rel="noreferrer">See Code</a>
         </div>
 
     );

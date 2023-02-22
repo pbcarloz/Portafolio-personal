@@ -2,7 +2,12 @@ import './intro-style.css'
 import miFoto from '../../img/miFoto.png'
 import React from 'react';
 
+
+
+
+
 const Intro = () => {
+
     return (
         <div className='intro'>
             <div className='i-left'>
@@ -18,7 +23,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className='i-desc'>
-                        I am an experienced direct buyer in the automotive industry, with a passion for web development. <br />Certificated and gained proficiency in HTML, CSS, ReactJs, and other web development technologies.
+                        I am an experienced direct buyer in the automotive industry, with a passion for web development. <br />Certificated and gained proficiency in HTML, CSS, ReactJs Typescript and other web development technologies.
                     </p>
                 </div>
             </div>

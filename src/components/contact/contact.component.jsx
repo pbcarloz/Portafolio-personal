@@ -71,14 +71,14 @@ const Contact = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title">Let's discuss your project</h1>
+                    <h1 className="c-title">Let's get in contact !</h1>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img
                                 className="c-icon"
                                 src={Phone}
                                 alt="phone logo" />
-                            + 52 2212 14 2459
+                            +81 80 5239 0105
                         </div>
                         <div className="c-info-item">
                             <img
@@ -98,7 +98,7 @@ const Contact = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>What is you challenge?</b> Always up to make things work.
+                        <b>What is your challenge ?</b> Always up to make things work.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit} id="form_fields">
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" id="user_name" />
