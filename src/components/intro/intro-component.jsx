@@ -2,10 +2,6 @@ import './intro-style.css'
 import miFoto from '../../img/miFoto.png'
 import React from 'react';
 
-
-
-
-
 const Intro = () => {
 
     return (

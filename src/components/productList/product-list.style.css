@@ -34,4 +34,9 @@
     .pl-texts {
         width: 100%;
     }
+
+    .pl-title {
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
