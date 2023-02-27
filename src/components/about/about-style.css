@@ -79,11 +79,13 @@
     .about {
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .a-left {
         width: 100%;
+        /* display: none; */
+        margin: 0px;
     }
 
     .a-card {
@@ -97,5 +99,11 @@
 
     .a-right {
         padding: 20px;
+    }
+
+    .a-desc {
+        font-weight: 300;
+        padding-right: 0px;
+        font-size: 13px;
     }
 }

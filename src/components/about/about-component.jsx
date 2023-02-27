@@ -16,7 +16,7 @@ const About = () => {
             <div className='a-right'>
                 <h1 className='a-title'>About Me</h1>
                 <p className='a-sub'>
-                    &larr; Hello World January 2020
+                    Hello World January 2020
                 </p>
                 <p className='a-desc'>
                     I am an experienced direct buyer in the automotive industry, with a passion for technologies. Started my journey in web development and completed a certificate program gaining proficiency in HTML, CSS, JavaScript, React, Typescript and other web development technologies. <br /> With a strong foundation in project management and a sharp business acumen, i'm well-suited to manage complex web development projects and ensure efficient operations.  As in this moment i am in japan, holding a spouse of japanese Visa, forging my way into the japanese culture. <br /> I am excited to contribute my skills to innovative projects and advance your company.
