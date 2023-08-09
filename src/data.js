@@ -50,4 +50,12 @@ export const products = [
         desc: "First version of an E-commerce i developed using React with functional components. Several hooks were used, such as useState, useContext, useNavigation, react router, etc. All integrated with Google firebase to make requests for data collections, order storage, users, etc.",
 
     },
+    {
+        id: 8,
+        img: "https://i.yourimageshare.com/w9Yx2jC6Sb.webp",
+        link: "https://tsc-hangman.netlify.app/",
+        github: "https://github.com/pbcarloz/HangMan",
+        desc: "A TypeScript-React project i made deployed using Vite, to play hangman game to guess a word using the rendered Keyboard or the actual keyboard. ",
+
+    },
 ];
